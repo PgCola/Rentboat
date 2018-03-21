@@ -1,0 +1,156 @@
+<html>
+<head>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="script/script.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+<body>
+  <nav>
+    <i class="burger">
+      <svg id="burger" class="normal" width="32" height="32" onclick="dropdown()">
+					<rect class="top" width="32" height="5"/>
+					<rect class="mid" width="32" height="5" y="13"/>
+					<rect class="mid_2" width="32" height="5" y="13"/>
+					<rect class="mid_3" width="32" height="5" y="13" />
+    			<rect class="bot" width="32" height="5" y="27"/>
+        </svg>
+        </i>
+    <h1>RentBoat</h1>
+    <ul class="desktop_ul">
+      <li onclick="toAbout()">About</li>
+      <li onclick="toCatalog()">Catalog</li>
+      <li onclick="toContact()">Contact</li>
+    </ul>
+    <ul class="mobile_dropdown active">
+      <li onclick="toAbout()">About</li>
+      <li onclick="toCatalog()">Catalog</li>
+      <li onclick="toContact()">Contact</li>
+    </ul>
+  </nav>
+  <section id="section">
+    <div class="enter" id="about">
+      <div class="text">
+        <div class="text_box">
+          <h1>About Us</h1>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Quisque nulla neque, lacinia a erat sit amet, ullamcorper rhoncus lorem.
+              Quisque pellentesque justo id nunc consequat, vitae finibus lectus interdum.
+               Integer sit amet egestas nulla. Vestibulum pretium lorem ac ipsum dictum sodales.
+                In id dui vitae nisi interdum tristique.</h3>
+        </div>
+
+      </div>
+      <div class="picture" id="pic1"></div>
+      </div>
+    </div>
+    <div class="triple_box">
+      <ul>
+        <li id="li">
+          <div class="left_box">
+            <div class="icon">
+              <i class="fas fa-warehouse"></i>
+            </div>
+          </div>
+            <div class="text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+        </li>
+        <li id="li1">
+          <div class="left_box">
+            <div class="icon">
+              <i class="fas fa-lock"></i>
+            </div>
+          </div>
+            <div class="text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+
+            </div>
+        </li>
+        <li id="li2">
+          <div class="left_box">
+            <div class="icon">
+              <i class="fas fa-wifi"></i>
+            </div>
+          </div>
+
+            <div class="text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="catalog" id="catalog">
+      <div class="top">
+        <h1>Catalog</h1>
+      </div>
+      <div class="content">
+        <ul>
+          <li>
+            <div class="yacht1">
+              <div class="info">
+                <h1>LoremFast</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet neque et nunc cursus porta. Nulla eu augue congue, eleifend lorem id, scelerisque turpis.</h3>
+                <div class="button">More</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="yacht2">
+              <div class="info">
+                <h1>Xipsum</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet neque et nunc cursus porta. Nulla eu augue congue, eleifend lorem id, scelerisque turpis.</h3>
+                <div class="button">More</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="yacht3">
+              <div class="info">
+                <h1>LuxuryDolor</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet neque et nunc cursus porta. Nulla eu augue congue, eleifend lorem id, scelerisque turpis.</h3>
+                <div class="button">More</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="top">
+            <h1>Contact</h1>
+          </div>
+          <div class="content">
+            <form>
+              
+                <input type="text" placeholder="First Name"/>
+                <input type="text" placeholder="Last Name"/>
+                <input type="text" placeholder="Phone number"/>
+                <textarea rows="8" placeholder="Message"></textarea>
+                <input type="button" value="Send">
+              
+              
+            </form>
+
+          </div>
+
+    </div>
+  </section>
+  <footer>
+    <p><span>RentBoat</span>/<span>2018</span></p>
+  </footer>
+</body>
+</html>
