@@ -82,7 +82,8 @@ nav {
       color: white;
       font-family: "Lato", sans-serif;
       font-size: 1.1em;
-      display: inline-block; }
+      display: inline-block;
+      cursor: pointer; }
   nav .mobile_dropdown {
     display: none; }
   @media only screen and (max-width: 768px) {
@@ -210,8 +211,8 @@ section {
         min-height: 80vh; }
         section .enter .text {
           width: 100%;
-          max-height: 40%;
-          min-height: 30%;
+          max-height: 30%;
+          min-height: 20%;
           order: 2; }
           section .enter .text .text_box {
             top: 0;
@@ -231,7 +232,8 @@ section {
               text-align: center; }
         section .enter .picture {
           width: 100%;
-          height: 60%;
+          min-height: 70%;
+          max-height: 80%;
           order: 1;
           background-position: 50% 70%; } }
   section .triple_box {
